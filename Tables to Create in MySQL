@@ -1,0 +1,22 @@
+CREATE DATABASE testdb;
+USE testdb;
+
+CREATE TABLE Employee (
+  EmpID INT PRIMARY KEY,
+  Name VARCHAR(50),
+  Salary DOUBLE
+);
+
+CREATE TABLE Product (
+  ProductID INT PRIMARY KEY,
+  ProductName VARCHAR(50),
+  Price DOUBLE,
+  Quantity INT
+);
+
+CREATE TABLE Student (
+  StudentID INT PRIMARY KEY,
+  Name VARCHAR(50),
+  Department VARCHAR(50),
+  Marks DOUBLE
+);
